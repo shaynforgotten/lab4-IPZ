@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     A([Start]) --> B[/"Input: $$r_start, r_end, \Delta r, \phi_start, \phi_end, \Delta \phi$$"/]
-    B --> C{"Validate inputs \\ $$r_start r_end \\ \phi_start  \phi_end$$ \\ \Delta r, \Delta \phi  0$$"}
+    B --> C{"Validate inputs \\ $$r_start r_end \\ \phi_start  \phi_end \\ \Delta r, \Delta \phi  0$$"}
     C -- Yes --> D["Set $$r = r_start, \phi = \phi_start$$"]
     C -- No --> Z([Invalid data! Stop])
     D --> E{Is $$r \leq r_end$$?}
