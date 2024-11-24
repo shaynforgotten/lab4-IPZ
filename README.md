@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    A([Start]) --> B[/Set: $$x_start = 0, x_end = 3, \s = 0.4$$/]
+    A([Start]) --> B[/"Set: $$x_start = 0, x_end = 3, \Delta s = 0.4$$"/]
     B --> C[/"Output table header: x, u(x)"/]
     C --> D[Set $$x = x_start$$]
     D --> E{Is $$x \leq x_end$$?}
@@ -10,6 +10,7 @@ graph TD
     G -- No --> I["Compute: $$u(x) = \arctan(\ln(x) + 0.3)$$"]
     H --> J[/"Output: $$x, u(x)$$"/]
     I --> J
-    J --> K[Increment $$x = x + \s$$]
+    J --> K[Increment $$x = x + \Delta s$$]
     K --> E
+
 ```
