@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A([Start]) --> B[/Input: $$r_start, r_end, \Delta r, \phi_start, \phi_end, \Delta \phi$$/]
     B --> C{Validate inputs \\ $$r_start < r_end \\ \phi_start < \phi_end \\ andn \Delta r, \Delta \phi > 0$$}
@@ -14,3 +15,4 @@ graph TD
     J --> K
     K --> M[Increment $$\phi = \phi + \Delta \phi$$]
     M --> G
+```
