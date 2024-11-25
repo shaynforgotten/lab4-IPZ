@@ -1,4 +1,4 @@
-# 4.1 | V - 11
+# 4.2 | V - 11
 ![image](https://github.com/user-attachments/assets/9faab4e9-5c32-4aa5-92fa-5cb554f1c153)
 
 
@@ -18,7 +18,7 @@ graph TD
     J --> K[Increment $$x = x + \Delta s$$]
     K --> E
 ```
-# 4.2 | V - 11
+# 4.1 | V - 11
 
 ![image](https://github.com/user-attachments/assets/5dbce32f-4b98-4b79-804b-c566ea1c7a00)
 
