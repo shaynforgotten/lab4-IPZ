@@ -1,4 +1,8 @@
 # 4.1 | V - 11
+![image](https://github.com/user-attachments/assets/5dbce32f-4b98-4b79-804b-c566ea1c7a00)
+
+
+
 ```mermaid
 graph TD
     A([Start]) --> B[/"Set: $$x_start = 0, x_end = 3, \Delta s = 0.4$$"/]
@@ -13,9 +17,12 @@ graph TD
     I --> J
     J --> K[Increment $$x = x + \Delta s$$]
     K --> E
-
 ```
 # 4.2 | V - 11
+![image](https://github.com/user-attachments/assets/9faab4e9-5c32-4aa5-92fa-5cb554f1c153)
+
+
+
 ```mermaid
 graph TD
     A([Start]) --> B[/Input: $$x_start, x_end, \Delta x$$/]
@@ -36,6 +43,10 @@ graph TD
 
 ```
 # 4.3 | V - 11
+![image](https://github.com/user-attachments/assets/a33104ae-6a93-4d2d-aa82-c4cb6e4a61f9)
+
+
+
 ```mermaid
 graph TD
     A([Start]) --> B[/"Input: $$r_start, r_end, \Delta r, \phi_start, \phi_end, \Delta \phi$$"/]
